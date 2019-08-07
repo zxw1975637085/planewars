@@ -146,7 +146,7 @@ public class GameFrame extends Frame {
                         e.printStackTrace();
                     }
                     GameFrame gameFrame = DataStore.get("gameFrame");
-                    if (random.nextInt(1000) > 980) {
+                    if (random.nextInt(1000) > 985 ) {
                         gameFrame.enemyPlaneList.add(new EnemyPlane(random.nextInt(700), random.nextInt(100), ImageMap.get("ep01")));
                     }
                     GameFrame gameFrame1 = DataStore.get("gameFrame");

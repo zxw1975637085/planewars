@@ -41,7 +41,7 @@ public class Plane extends BaseSprite implements Moveable, Drawable {
         fire();
         if (fire) {
             index++;
-            if (index >= 10) {
+            if (index >= 5) {
                 index = 0;
             }
         }
